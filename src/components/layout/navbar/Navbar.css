@@ -1,0 +1,53 @@
+#bodyNavbar{
+background-color: var(--grey);
+display: flex;
+flex-direction: row;
+height: 50px;
+}
+
+.titleNavbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.titleNavbar img{
+    cursor: pointer;
+}
+
+.containerActionNavbar{
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.buttonsNavbar{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegationDivNavbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnNavbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100%/3);
+    justify-content: center;
+    font-size: 20px;
+}
+
+.btnNavbar:hover{
+    background-color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
