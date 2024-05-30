@@ -10,7 +10,6 @@ const Buscador = () => {
         let icon1 = document.getElementById("icon1")
         let icon2 = document.getElementById("icon2")
         inputSearch.className= "showDiv"
-        iconSearch.className="movementRight"
         icon1.style.display="none"
         icon2.style.display="inline"
     }
@@ -21,11 +20,9 @@ const Buscador = () => {
         let icon1 = document.getElementById("icon1")
         let icon2 = document.getElementById("icon2")
         inputSearch.className= "hideDiv"
-        iconSearch.className="movementLeft"
         icon1.style.display="inline"
         icon2.style.display="none"
     }
-
 
   return (
     <div id='bodyBuscador'>

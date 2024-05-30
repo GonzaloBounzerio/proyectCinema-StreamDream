@@ -1,0 +1,34 @@
+#bodyFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid black;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+#bodyFooter a{
+    color: var(--white);
+}
+
+.listLinks{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.linksRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
