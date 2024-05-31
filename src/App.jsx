@@ -1,6 +1,7 @@
 
 import './App.css'
 import Footer from './components/layout/footer/Footer'
+import MainMovieContainer from './components/layout/mainMovie/MainMovieContainer'
 import Navbar from './components/layout/navbar/Navbar'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <MainMovieContainer/>
       <Footer/>
     </>
   )

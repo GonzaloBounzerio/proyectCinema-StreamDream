@@ -1,8 +1,5 @@
 #bodyFooter{
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    border: 1px solid black;
     background-color: var(--black);
     color: var(--white);
     padding: 20px;
@@ -26,9 +23,10 @@
     justify-content: space-evenly;
 }
 
-
 .linksRedes{
+    margin: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
