@@ -1,7 +1,5 @@
-import { useState } from "react"
 import { dataMovie } from "../../../data"
 import MainMovie from "./MainMovie"
-import { useEffect } from "react"
 
 
 const MainMovieContainer = () => {

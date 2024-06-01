@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="buttonsNavbar textFont">
                 <ul className='btnNavbar'>Series</ul>
                 <ul className='btnNavbar'>Películas</ul>
-                <ul className='btnNavbar'>Géneros</ul>
+                <ul className='btnNavbar'>Mi lista</ul>
             </div>
             <div className="navegationDivNavbar">
                 <Buscador/>

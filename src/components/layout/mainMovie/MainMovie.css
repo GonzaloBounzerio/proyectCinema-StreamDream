@@ -29,6 +29,9 @@
 -webkit-border-radius: 0px 100px 0px 0px;
 -moz-border-radius: 0px 100px 0px 0px;
 
+    animation: bajaOpacity 300ms ease-in;
+    animation-fill-mode: forwards;
+
 }
 
 .titlePortada{
@@ -50,5 +53,18 @@
         box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
         -webkit-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
         -moz-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+    }
+}
+
+@keyframes bajaOpacity{
+    from{
+        opacity: 100%;
+        box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+        -webkit-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+        -moz-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+    }
+    to{
+        opacity: 50%;
+        box-shadow: none;
     }
 }

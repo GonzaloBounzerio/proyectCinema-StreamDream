@@ -6,17 +6,18 @@ const Buscador = () => {
 
     function muestraInput(){
         let inputSearch = document.getElementById("buscadorNavbar")
-        let iconSearch = document.getElementById("searchNavbarIcon")
         let icon1 = document.getElementById("icon1")
         let icon2 = document.getElementById("icon2")
         inputSearch.className= "showDiv"
         icon1.style.display="none"
         icon2.style.display="inline"
+        window.addEventListener('scroll', function(event) {
+            hideInput()
+        });
     }
 
     function hideInput(){
         let inputSearch = document.getElementById("buscadorNavbar")
-        let iconSearch = document.getElementById("searchNavbarIcon")
         let icon1 = document.getElementById("icon1")
         let icon2 = document.getElementById("icon2")
         inputSearch.className= "hideDiv"
