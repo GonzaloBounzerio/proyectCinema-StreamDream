@@ -1,6 +1,7 @@
 
 #bodyMainMovie{
     position: relative;
+    overflow: hidden;
 }
 
 #portadaMainMovie{
@@ -49,19 +50,23 @@
 
 @keyframes cambiaOpacityPortada{
     100%{
-        opacity: 100%;
-        box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
-        -webkit-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
-        -moz-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+        opacity: 80%;
+        box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
+-webkit-box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
+-moz-box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
+background-color: var(--white);
+color: var(--black);
     }
 }
 
 @keyframes bajaOpacity{
     from{
-        opacity: 100%;
-        box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
-        -webkit-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
-        -moz-box-shadow: 8px -4px 29px 6px rgba(235,235,235,0.83);
+        background-color: var(--white);
+color: var(--black);
+        opacity: 80%;
+        box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
+-webkit-box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
+-moz-box-shadow: 10px 10px 63px 43px rgba(235,235,235,0.75);
     }
     to{
         opacity: 50%;

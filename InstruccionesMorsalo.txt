@@ -1,0 +1,6 @@
+slider zone va a ser el layout, es decir donde van a estar todos los carruseles
+
+slider list va a ser cada una de las listas, ponele un ade top 10 otra de mi lsita etc
+
+slider va a ser cada elemento
+va a tener caracteritica general
